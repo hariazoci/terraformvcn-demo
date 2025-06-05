@@ -38,7 +38,7 @@ variable "compartment_ocid" {
 variable "label_prefix" {
   description = "Label prefix for resources"
   type        = string
-  default     = "dev"
+  default     = "devad"
 }
 
 variable "vcn_cidr" {
